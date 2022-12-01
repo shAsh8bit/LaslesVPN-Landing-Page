@@ -1,0 +1,10 @@
+.global{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 5rem;
+}
+.global-map>img{
+    margin-top: 8rem;
+    width: 100%;
+    
+}

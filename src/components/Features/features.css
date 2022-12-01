@@ -1,0 +1,40 @@
+.feature {
+  display: flex;
+  padding: 0rem 5rem;
+}
+.feature-right {
+  width: 40%;
+  display: flex;
+
+  flex-direction: column;
+  padding: 1rem;
+}
+.feature>img {
+  width: 50%;
+  margin-right: 15%;
+}
+.feature-right>h1 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: var(--text-color-dark);
+}
+.feature-right>p {
+  padding: 2rem 0 ;
+  font-size: 0.9rem;
+  line-height: 25px;
+  color: var(--text-color-light);
+}
+.features-list {
+  display: flex;
+  flex-direction: column;
+}
+.feature-single {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.feature-single>img {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.4rem;
+}

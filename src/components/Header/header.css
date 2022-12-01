@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+  
+}
+.header-left{
+   flex: 1;
+  display: flex;
+
+  flex-direction: column;
+  padding: 1rem;
+}
+.header-left h1{
+    font-weight: 700;
+    font-size: 4rem;
+    color: var(--text-color-dark);
+}
+.header-left p{
+    padding: 2rem 0;
+    font-size: 1.2rem;
+    color: var(--text-color-light);
+}
+.header img{
+    flex: 1;
+}
+.header-button {
+    margin-top: 30px;
+}
+.header .header-left .header-button button{
+    padding: 1rem 6rem;
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+    outline: none;
+    border: none;
+    background: var(--color);
+    font-family: var(--font-family);
+    border-radius: 10px;
+    box-shadow: 0 30px 40px -10px rgba(209, 47, 47, 0.407);
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.brands{
+    display: flex;
+    padding: 0 5rem;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 5rem; */
+}
+.brands>img{
+    width: 15%;
+}

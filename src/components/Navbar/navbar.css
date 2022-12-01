@@ -1,0 +1,68 @@
+.navbar {
+  /* position: fixed; */
+  background: rgba(255, 255, 255, 0.719);
+  /* background: rgba(77, 56, 56, 0.25); */
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+  margin-bottom: 5rem;
+}
+
+.navbar-links-logo img {
+  height: 40px;
+}
+.navbar-links-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar-links-container p,
+.navbar-sign p {
+  color: var(--text-color-light);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 15px;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: var(--text-color-light);
+}
+
+.navbar-sign p {
+  font-weight: 700;
+}
+.navbar-sign button {
+  padding: 0.5rem 2rem;
+  margin-left: 10px;
+  background: #fff;
+  color: var(--color);
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  border: 1px solid var(--color);
+  outline: none;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.navbar-sign button:hover {
+  background: var(--color);
+  color: #fff;
+  box-shadow: rgba(245, 56, 56, 0.25) 0px 6px 10px -1px;
+}
